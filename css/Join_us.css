@@ -1,0 +1,52 @@
+
+.content .title{
+	padding: 50px 0;
+	text-align: center;
+}
+.content .title h2{
+	font-size: 30px;
+	color: #120009;
+	line-height: 60px;
+	background: url(../img/index/title_bg.png)no-repeat bottom;
+}
+.content .title span{
+	font-size: 24px;
+	color: #120009;
+}
+
+.content ul li{
+	width: 1194px;
+	height: 442px;
+	border: 3px solid #000000;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.content ul li div{
+	width: 460px;
+	margin: 0 68px;
+	padding-top: 64px;
+}
+.content ul li div h4{
+	font-size: 16px;
+	font-family: "宋体";
+	margin-bottom: 14px;
+}
+.content ul li div p{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.content ul li img{
+	width: 460px;
+	height: 442px;
+	margin: 0 68px;
+}
+.content ul li:first-child+li{
+	flex-direction: row-reverse;
+}
+.content ul li:first-child+li+li+li{
+	flex-direction: row-reverse;
+}

@@ -1,0 +1,122 @@
+
+.content .title{
+	padding: 50px 0;
+	text-align: center;
+}
+.content .title h2{
+	font-size: 30px;
+	color: #120009;
+	line-height: 60px;
+	background: url(../img/index/title_bg.png)no-repeat bottom;
+}
+.content .title span{
+	font-size: 24px;
+	color: #120009;
+}
+
+
+.content .contact{
+	display: flex;
+	justify-content: space-around;
+}
+.content .contact li{
+	width: 194px;
+	text-align: center;
+}
+.content .contact li img{
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 6px 2px #949494;
+}
+.content .contact li b{
+	font-size: 24px;
+	color: #3a3737;
+	display: block;
+	line-height: 50px;
+}
+.content .contact li span{
+	font-size: 16px;
+	color: #3b3939;
+	font-family: "宋体";
+	display: block;
+	line-height: 30px;
+}
+
+
+.content iframe{
+	width: 1200px;
+	height: 547px;
+	margin: 50px auto;
+}
+
+.content .form img{
+	width: 381px;
+	height: 670px;
+	float: left;
+}
+.content .form ul{
+	float: right;
+}
+.content .form ul li{
+	width: 744px;
+	margin-bottom: 30px;
+}
+.content .form ul li label{
+	font-size: 24px;
+	color: #434141;
+	vertical-align: top;
+	line-height: 70px;
+}
+.content .form ul li input{
+	width: 654px;
+	height: 58px;
+	border-radius: 15px;
+	border: 1px solid #120009;
+	padding: 5px 5px;
+}
+.content .form ul li textarea{
+	width: 654px;
+	height: 276px;
+	border-radius: 15px;
+	border: 1px solid #120009;
+	padding: 5px 5px;
+	resize: none;
+	overflow: hidden;
+}
+.content .form ul li label:hover{
+	cursor: pointer;
+}
+.content .form ul li:hover label{
+	color: #120009;
+}
+.content .form ul li:hover input{
+	border: 1px solid #9e8d7b;
+	background: #d1c0a5;
+}
+.content .form ul li:hover textarea{
+	border: 1px solid #9e8d7b;
+	background: #d1c0a5;
+}
+
+.content .form div{
+	margin-bottom: 50px;
+}
+.content .form div input{
+	width: 60px;
+	height: 22px;
+	font-size: 12px;
+	color: #434141;
+	border: 1px solid #120009;
+}
+.content .form div input[name="submit"]{
+	margin-left: 606px;
+}
+.content .form div input[name="reset"]{
+	margin-left: 10px;
+}
+.content .form div input:hover{
+	color: #fbf7f7;
+	background: #120009;
+	cursor: pointer;
+}

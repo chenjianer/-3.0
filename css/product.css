@@ -1,0 +1,178 @@
+.content .nav_menu ul{
+	width: 936px;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.content .nav_menu ul li{
+	width: 180px;
+	height: 180px;
+}
+.content .nav_menu ul li a{
+	font-size: 20px;
+	color: #ffffff;
+	display: block;
+	width: 180px;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	background: url(../img/public/nav_bg.png);
+}
+.content .nav_menu ul .on a{
+	background: url(../img/public/nav_bg_on.png);
+}
+.content .nav_menu ul li a:hover{
+	background: url(../img/public/nav_bg_on.png);
+}
+
+.content .title{
+	padding: 50px 0;
+	text-align: center;
+}
+.content .title h2{
+	font-size: 30px;
+	color: #120009;
+	line-height: 60px;
+	background: url(../img/index/title_bg.png)no-repeat bottom;
+}
+.content .title span{
+	font-size: 24px;
+	color: #120009;
+}
+
+
+.carsoule{
+	width: 1200px;
+	height: 452px;
+	margin: 0 auto;
+	position: relative;
+}
+.carsoule ul{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.carsoule li{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.carsoule li img{
+	width: 100%;
+	height: 100%;
+}
+.carsoule .btn_l{
+	position: absolute;
+	width: 27px;
+	height: 51px;
+	left: 0;
+	top: 50%;
+	margin-left: 42px;
+	margin-top: -22px;
+	background: url(../img/index/product/btn_l.png) no-repeat;
+}
+.carsoule .btn_l:hover{
+	background: url(../img/index/product/btn_l_on.png) no-repeat;
+}
+.carsoule .btn_r{
+	position: absolute;
+	width: 27px;
+	height: 51px;
+	right: 0;
+	top: 50%;
+	margin-right: 42px;
+	margin-top: -22px;
+	background: url(../img/index/product/btn_r.png) no-repeat;
+}
+.carsoule .btn_r:hover{
+	background: url(../img/index/product/btn_r_on.png) no-repeat;
+}
+
+.carsoule li div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.carsoule li div img{
+	position: absolute;
+}
+.carsoule li div p{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background: #5b4f55;
+	opacity: 0.5;
+	bottom: 0;
+	display: none;
+}
+.carsoule li div span{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	bottom: 0;
+	display: none;
+}
+.carsoule li div span a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	color: #ffffff;
+}
+.on p{
+	display: block !important;
+}
+.on span{
+	display: block !important;
+}
+
+
+
+.content .pro ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.content .pro ul li{
+	width: 390px;
+	height: 360px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.content .pro ul li img{
+	width: 390px;
+	height: 360px;
+	position: absolute;
+}
+.content .pro ul li p{
+	width: 390px;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+.content .pro ul li span{
+	font-size: 36px;
+	color: #ffffff;
+	line-height: 360px;
+	text-align: center;
+	width: 390px;
+	height: 360px;
+	background: url(../img/product/product_bg.png);
+	position: absolute;
+	display: none;
+}
+.content .pro ul li:hover p{
+	display: none;
+}
+.content .pro ul li:hover span{
+	display: block;
+}
+

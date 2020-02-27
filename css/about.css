@@ -1,0 +1,55 @@
+
+.content .title{
+	padding: 50px 0;
+	text-align: center;
+}
+.content .title h2{
+	font-size: 30px;
+	color: #120009;
+	line-height: 60px;
+	background: url(../img/index/title_bg.png)no-repeat bottom;
+}
+.content .title span{
+	font-size: 24px;
+	color: #120009;
+}
+
+.content ul li{
+	width: 1198px;
+	border: 1px solid #120009;
+	margin-bottom: 70px;
+	display: flex;
+}
+.content ul li:first-child{
+	background: url(../img/about/about_01.jpg);
+}
+.content ul li:first-child div{
+	height: 398px;
+}
+.content ul li:first-child div h4{
+	color: #fcfbfc;
+}
+.content ul li:first-child div p{
+	color: #fcfbfc;
+}
+
+.content ul li div{
+	width: 486px;
+	padding: 0 60px;
+}
+.content ul li div h4{
+	font-size: 30px;
+	color: #454043;
+	text-align: center;
+	line-height: 100px;
+}
+.content ul li div p{
+	font-size: 18px;
+	color: #454043;
+	text-indent: 2em;
+	line-height: 34px;
+}
+.content ul li:first-child+li+li+li div{
+	width: 726px;
+	padding: 0 10px;
+}
